@@ -1,0 +1,11 @@
+*.pyc
+log
+env
+migrations
+.idea
+*.swp
+*.db
+*.log
+.DS_Store
+*/.DS_Store
+*.qiniu*

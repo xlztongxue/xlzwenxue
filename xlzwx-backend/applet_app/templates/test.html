@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/static/jquery.min.js"></script>
+</head>
+<body>
+test.html
+<script>
+    $.ajax({
+        headers:{
+            "Authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1NjI5MTczNDMsInVzZXJfaWQiOiIxIn0.greGnIPOTkjZrG4lOUKlSifQ1WC5TKv3ouog1cYTuhY"
+        },
+        url: "http://119.29.223.191:5000/mybooks/",
+        type: "get",
+        success: function (data) {
+            console.log(data);
+        }
+    });
+
+</script>
+</body>
+</html>
