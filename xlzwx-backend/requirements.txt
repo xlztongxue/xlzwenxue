@@ -1,6 +1,6 @@
 captcha==0.2.1
 Click==7.0
-cryptography==2.5
+cryptography==3.2
 dicttoxml==1.7.4
 dnspython==1.16.0
 elasticsearch==6.3.1
