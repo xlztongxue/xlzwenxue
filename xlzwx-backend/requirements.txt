@@ -30,7 +30,7 @@ Pillow==5.0.0
 pycparser==2.19
 pycrypto==2.6.1
 pycryptodome==3.7.0
-PyJWT==1.6.4
+PyJWT==2.4.0
 PyMySQL==0.8.0
 qiniu==7.2.2
 qrcode==5.3
